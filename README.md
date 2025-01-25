@@ -4,8 +4,7 @@ Sampling is a statistical technique used to select a subset of data from a large
 ### Steps Followed
 
 #### Step 1: Dataset Preparation
-
-Dataset Source: Credit card dataset downloaded from a GitHub URL.
+Credit card dataset downloaded from a GitHub URL.
 
 #### Step 2: Balancing the Dataset
 
@@ -33,29 +32,38 @@ Where N is the population size.
 
 Five sampling techniques were implemented:
 
-Random Sampling: Randomly selected samples from the balanced dataset.
+#### Random Sampling: Randomly selected samples from the balanced dataset.
 
-Systematic Sampling: Selected samples at regular intervals.
+#### Systematic Sampling: Selected samples at regular intervals.
 
-Stratified Sampling: Ensured proportional representation of target classes in the samples.
+#### Stratified Sampling: Ensured proportional representation of target classes in the samples.
 
-Cluster Sampling: Divided data into clusters based on the target variable and sampled within clusters.
+#### Cluster Sampling: Divided data into clusters based on the target variable and sampled within clusters.
 
-Bootstrap Sampling: Used resampling with replacement to create new datasets.
+#### Bootstrap Sampling: Used resampling with replacement to create new datasets.
 
 #### Models Used
 
-Logistic Regression: A linear model for binary classification problems.
+#### Logistic Regression: A linear model for binary classification problems.
 
-Decision Tree: A tree-based model that splits data based on features.
+#### Decision Tree: A tree-based model that splits data based on features.
 
-Random Forest: An ensemble model that combines multiple decision trees.
+#### Random Forest: An ensemble model that combines multiple decision trees.
 
-Support Vector Machine (SVM): Finds the hyperplane that best separates classes.
+#### Support Vector Machine (SVM): Finds the hyperplane that best separates classes.
 
-K-Nearest Neighbors (KNN): Classifies data points based on their nearest neighbors.
+#### K-Nearest Neighbors (KNN): Classifies data points based on their nearest neighbors.
 
 ### Result
 ![Result_102203992](Result_102203992.png "An example of sampling techniques")
+
+Maximum accuracy for each model is given by following sampling methods:
+#### M1: Sampling 4
+#### M2: Sampling 2
+#### M3: Sampling 2,3,4,5
+#### M4: Sampling 2
+#### M5: Sampling 3
+
+
 
 
